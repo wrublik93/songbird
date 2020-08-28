@@ -1,6 +1,10 @@
 .app {
-  background-image: url("https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/common/main-background.jpg");
+  background-image: url("https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/common/background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
   min-height: 100vh;
+  /* padding: 30px 20px; */
 }
 
 .wrapper {
