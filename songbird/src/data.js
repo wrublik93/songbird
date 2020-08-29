@@ -302,7 +302,7 @@ const data = [
 ];
 
 
-const categories = [
+const category = [
     'Разминка',
     'Воробьиные',
     'Лесные птицы',
@@ -311,4 +311,4 @@ const categories = [
     'Морские птицы',
 ];
 
-export { data, categories };
+export { data, category };
