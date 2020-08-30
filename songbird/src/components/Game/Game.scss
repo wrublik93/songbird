@@ -1,0 +1,37 @@
+.response {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 20px 0;
+  }
+  .card_container {
+    background-color: #394956ad;
+    width: 63%;
+  }
+  .instruction {
+    font-size: 18px;
+    padding-top: 50px;
+  }
+  
+  @media (max-width: 950px) {
+    .card_container {
+      flex-direction: column;
+      padding-bottom: 10px;
+      padding-top: 10px;
+    }
+    .instruction {
+      font-size: 16px;
+    }
+  }
+  @media (max-width: 770px) {
+    .response-container {
+      flex-direction: column;
+    }
+  
+    .card_container {
+      margin-top: 20px;
+      width: 100%;
+      flex-direction: row;
+    }
+  }

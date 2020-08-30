@@ -17,6 +17,7 @@ function Game({
   setPointsRound,
 }) {
     const [userResponse, setUserResponse] = useState('');
+    const styleInstruction = `card_container instruction`;
 
   return (
     <main className="main">
@@ -38,8 +39,9 @@ function Game({
         {userResponse ? (
           <Card userResponse={userResponse} />
         ) : (
-          <div>
-            Listen to an excerpt from the song and choose an artist
+          <div className={styleInstruction}>
+            Прослушайте плеер и выберите птицу из списка.
+            Следующий уровень будет доступен после правильного ответа!
           </div>
         )}
       </div>
