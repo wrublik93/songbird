@@ -9,8 +9,10 @@ function Button({
     setPointsRound,
     correctAnswer,
 }) {
+    const buttonStyle = correctAnswer ? 'button_active' : 'button';
     return (
         <button
+            className={buttonStyle}
             onClick={() => {
                 if(correctAnswer) {
                     if(currentBirdCategory < 5) {
@@ -24,7 +26,7 @@ function Button({
                 }
             }}
         >
-            Next
+            Следующий уровень
         </button>
     )
 };
