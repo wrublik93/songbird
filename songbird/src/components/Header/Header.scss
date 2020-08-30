@@ -1,0 +1,18 @@
+.header {
+
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #394956b3;
+    margin-top: 0;
+    padding: 0;
+}
