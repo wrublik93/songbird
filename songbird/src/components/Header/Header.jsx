@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.scss';
-import logo from '../../assets/images/logo/logo.png';
+import logo from '../../assets/images/common/logo.png';
 import CategoryItem from './CategoryItem/CategoryItem';
 
 function Header ({score, category, currentBirdCategory}) {
@@ -14,11 +14,11 @@ function Header ({score, category, currentBirdCategory}) {
             <div className="header-container">
                 <img src={logo} alt="logo" width="200" height="70"/>
                 <h2>
-                    Score: <span>{score}</span>
+                    Баллы: <span>{score}</span>
                 </h2>
             </div>
             <div className="nav">
-                <ul className="list">{categories}</ul>
+                <ul className="list-header">{categories}</ul>
             </div>
         </header>
     )
