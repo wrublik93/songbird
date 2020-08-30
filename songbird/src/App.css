@@ -1,5 +1,5 @@
 .app {
-  background-image: url("https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/common/background.jpg");
+  background-image: url("./assets/images/common/background.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
