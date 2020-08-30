@@ -6,14 +6,16 @@ function Lose({
     score,
     setScore,
 }) {
-    const text = score < 15 ? 'Плохо' : 'Вполне. Пробуй еще!'
+    const text = score < 15 ? 'Вы набрали меньше половины баллов! Пробуйте еще!' : 'Вы набрали больше половины баллов! Пробуйте еще!'
 
     return (
         <div>
-            <div>
-                {text} <p>{score} из 30</p>
+            <div className="task_container">
+                <div>{text}</div>
+                <div>Ваш результат: {score} из 30!</div>
             </div>
             <button
+                className="button_active"
                 onClick={
                     () => {
                         setScore(0);
