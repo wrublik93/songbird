@@ -8,15 +8,15 @@ import './App.css';
 function App() {
   const [score, setScore] = useState(0);
   const [statusGame, setStatusGame] = useState(true);
-  const [currentMusicCategory, setCurrentMusicCategory] = useState(0);
+  const [currentBirdCategory, setCurrentBirdCategory] = useState(0);
   const [correctAnswer, setCorrectAnswer] = useState(false);
   const [currentItem, setCurrentItem] = useState({});
   const [pointsRound, setPointsRound] = useState(5);
 
   useEffect(() => {
-    setCurrentItem(shuffleWords(data[currentMusicCategory]));
+    setCurrentItem(shuffleWords(data[currentBirdCategory]));
     setCorrectAnswer(false);
-  }, [currentMusicCategory]);
+  }, [currentBirdCategory]);
 
   useEffect(() => {
     if (correctAnswer) {
@@ -34,7 +34,7 @@ function App() {
     }
     console.log(
       'Правильный ответ в категории',
-      category[currentMusicCategory],
+      category[currentBirdCategory],
       ':',
       arr[0].name
     );
@@ -47,17 +47,18 @@ function App() {
         <Header 
           score = {score}
           category = {category}
-          currentMusicCategory = {currentMusicCategory}
+          currentBirdCategory = {currentBirdCategory}
         />
         {statusGame && (
           <Game
             data = {data}
-            currentMusicCategory = {currentMusicCategory} 
-            setStatusGame = {setStatusGame}
-            setCurrentMusicCategory = {setCurrentMusicCategory}
+            currentBirdCategory = {currentBirdCategory} 
             correctAnswer = {correctAnswer}
             currentItem = {currentItem}
             pointsRound = {pointsRound}
+            setStatusGame = {setStatusGame}
+            setCurrentBirdCategory = {setCurrentBirdCategory}
+            setCorrectAnswer = {setCorrectAnswer}
             setPointsRound = {setPointsRound}
           />
         )}
