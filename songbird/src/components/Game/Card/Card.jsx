@@ -6,20 +6,22 @@ function Card({
     userResponse,
 }) {
     return (
-        <div className="container">
+        <div className="card_container">
             <div className="card">
-                <div>
-                    Картинка
+                <div
+                    style={{ backgroundImage: `url(${userResponse.image})` }}
+                    className="stub_picture"
+                >
                 </div>
-                <div>
-                    <p>{userResponse.name}</p>
-                    <p>{userResponse.species}</p>
+                <div className="title_bird">
+                    <p className="name">{userResponse.name}</p>
+                    <p className="species">{userResponse.species}</p>
                     <Player 
                         audio={userResponse.audio}
                     />
                 </div>
             </div>
-            <div>{userResponse.description}</div>
+            <div className="description">{userResponse.description}</div>
         </div>
     )
 };

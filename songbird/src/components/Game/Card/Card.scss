@@ -1,0 +1,81 @@
+.card_container {
+    background-color: #394956ad;
+    width: 63%;
+  }
+  .card {
+    display: flex;
+  }
+  .stub_picture {
+    width: 200px;
+    height: 150px;
+    margin: 25px;
+    border-radius: 10px;
+    background-size: cover;
+    background-color: #394956b3;
+  }
+  .title_bird {
+    margin-top: 48px;
+    position: relative;
+    width: 360px;
+    margin-left: 19px;
+  }
+  .species {
+    text-align: center;
+    font-size: 18px;
+    margin: 0 0 10px;
+  }
+  .name {
+    text-align: center;
+    font-size: 26px;
+    margin: 0 0 5px;
+  }
+  .description {
+    font-size: 16px;
+    padding: 0 15px;
+    font-weight: 400;
+    margin-top: 0;
+  }
+  @media (max-width: 950px) {
+    .card_container {
+      flex-direction: column;
+      padding-bottom: 10px;
+      padding-top: 10px;
+    }
+    .title_song,
+    .stub_picture {
+      margin: 0 auto;
+    }
+  
+    .card {
+      flex-direction: column;
+    }
+  }
+  @media (max-width: 770px) {
+    .card_container {
+      margin-top: 20px;
+      width: 100%;
+      flex-direction: row;
+    }
+  }
+  @media (max-width: 680px) {
+    .title_song {
+      width: 345px;
+      margin: 0 auto;
+    }
+  }
+  @media (max-width: 580px) {
+    .title_song {
+      width: 345px;
+      margin: 0 0 0 50px;
+    }
+  }
+  @media (max-width: 430px) {
+    .title_song {
+      width: 295px;
+    }
+  }
+  @media (max-width: 380px) {
+    .title_song {
+      width: 260px;
+    }
+  }
