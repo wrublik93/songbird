@@ -1,0 +1,16 @@
+.options {
+    background-color: #394956ad;
+    height: 100%;
+    width: 35%;
+  }
+  .list-answer {
+    /* border: 1px solid; */
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  @media (max-width: 770px) {
+    .options {
+      width: 100%;
+    }
+  }

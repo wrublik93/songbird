@@ -28,8 +28,8 @@ function Answer({
         )
     })
     return (
-        <div>
-            <ul>{addAnswerOptions}</ul>
+        <div className="options">
+            <ul className="list-answer">{addAnswerOptions}</ul>
         </div>
     )
 };
