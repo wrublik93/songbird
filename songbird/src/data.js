@@ -104,7 +104,7 @@ const data = [
         weight: 'самцы 570-900 г, самки 550-810 г',
         length: '32-36 см',
         wingspan: '62-69 см',
-        image: '',
+        image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/second_level/1_bucephala.jpg',
         audio: '',
       },
       {
@@ -119,7 +119,7 @@ const data = [
         weight: 'самцы 2,7-3,7 кг, самки 1,7-2,6 кг',
         length: '61-90 см',
         wingspan: '152-166 см',
-        image: '',
+        image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/second_level/2_anser.jpg',
         audio: '',
       },
       {
@@ -134,7 +134,7 @@ const data = [
         weight: 'самцы 3,1-5,2 кг, самки 3,0-4,6 кг',
         length: '76-92 см',
         wingspan: '143-174 см',
-        image: '',
+        image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/second_level/3_anser_grey.jpg',
         audio: '',
       },
       {
@@ -149,7 +149,7 @@ const data = [
         weight: '840-1400 г (оба пола)',
         length: '51-63 см',
         wingspan: '82-100 см',
-        image: '',
+        image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/second_level/4_platyrhynchos.jpg',
         audio: '',
       },
       {
@@ -164,7 +164,7 @@ const data = [
         weight: 'самцы 6,45-13,0 кг, самки 5,7-8,0 кг',
         length: '144-187 см',
         wingspan: '194-228 см',
-        image: '',
+        image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/second_level/5_cygnus.jpg',
         audio: '',
       },
       {
@@ -179,7 +179,7 @@ const data = [
         weight: 'самцы 740-1050 г, самки 640-880 г',
         length: 'самцы 61-76 см, самки 51-60 см',
         wingspan: '84-91 см',
-        image: '',
+        image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/second_level/6_acuta.jpg',
         audio: '',
       }
     ],
@@ -196,7 +196,7 @@ const data = [
         weight: 'самцы 3,5-6,2 кг, самки 1,5-2,2 кг',
         length: '40-64 см',
         wingspan: '96-130 см',
-        image: '',
+        image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/third_level/1_tetrao_urogallus.jpg',
         audio: '',
       },
       {
@@ -211,7 +211,7 @@ const data = [
         weight: 'самцы 76-106 г, самки 75-96 г',
         length: '16-21,5 см',
         wingspan: '33-39 см',
-        image: '',
+        image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/third_level/2_coturnix.jpg',
         audio: '',
       },
       {
@@ -226,7 +226,7 @@ const data = [
         weight: '300-500 г (оба пола)',
         length: '15,5-31,5 см',
         wingspan: '48-55 см',
-        image: '',
+        image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/third_level/3_perdix.jpg',
         audio: '',
       },
       {
@@ -241,7 +241,7 @@ const data = [
         weight: 'самцы 310-390 г, самки 311-387 г',
         length: '32-40 см',
         wingspan: '54-64 см',
-        image: '',
+        image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/third_level/4_bonasa.jpg',
         audio: '',
       },
       {
@@ -256,7 +256,7 @@ const data = [
         weight: 'самцы 1,0-1,6 кг, самки 0,7-1,1 кг',
         length: 'самцы 51-71 см, самки 41-51 см',
         wingspan: 'самцы 81-100, самки 66-80 см',
-        image: '',
+        image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/third_level/5_lyrix.jpg',
         audio: '',
       },
       {
@@ -271,7 +271,7 @@ const data = [
         weight: 'самцы 0,7-2,0 кг, самки 0,65-1,6 кг',
         length: 'самцы 71-83 см, самки 59-70 см',
         wingspan: 'самцы 75-80, самки 66-70 см',
-        image: '',
+        image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/third_level/6_phasianus.jpg',
         audio: '',
       }
     ],
@@ -288,7 +288,7 @@ const data = [
         weight: 'самцы 1,1-1,56 кг, самки 0,8-1,32 кг',
         length: '60-67 см',
         wingspan: '115-150 см',
-        image: '',
+        image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/forth_level/1_corvus.jpg',
         audio: '',
       },
       {
@@ -303,7 +303,7 @@ const data = [
         weight: 'самцы 10-17 г, самки 9-16 г',
         length: '11-12,5 см',
         wingspan: '20-23 см',
-        image: '',
+        image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/forth_level/2_carduelis.jpg',
         audio: '',
       },
       {
@@ -318,7 +318,7 @@ const data = [
         weight: 'самцы 28-46 г, самки 26-46 г',
         length: '17-20,5 см',
         wingspan: '30-38 см',
-        image: '',
+        image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/forth_level/3_alauda.jpg',
         audio: '',
       },
       {
@@ -333,7 +333,7 @@ const data = [
         weight: 'самцы 16-22 г, самки 19-24 г',
         length: '13-16 см',
         wingspan: '26-32 см',
-        image: '',
+        image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/forth_level/4_delichon.jpg',
         audio: '',
       },
       {
@@ -348,7 +348,7 @@ const data = [
         weight: 'самцы 54-73 г, самки 67-73 г',
         length: '18-21 см',
         wingspan: '32-35,5 см',
-        image: '',
+        image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/forth_level/5_bombycilla.jpg',
         audio: '',
       },
       {
@@ -363,7 +363,7 @@ const data = [
         weight: 'самцы 50-87 г, самки 51-85 г',
         length: '23,5-25 см',
         wingspan: '44-47 см',
-        image: '',
+        image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/forth_level/6_oriolus.jpg',
         audio: '',
       }
     ],
@@ -380,7 +380,7 @@ const data = [
         weight: 'самцы 191-230 г, самки 180-257 г',
         length: '28-34 см',
         wingspan: '66-80 см',
-        image: '',
+        image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/fifth_level/1_vanellus.jpg',
         audio: '',
       },
       {
@@ -395,7 +395,7 @@ const data = [
         weight: 'самцы 130-205 г, самки 160-230 г',
         length: '24,5-31 см',
         wingspan: '43-48 см',
-        image: '',
+        image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/fifth_level/2_gallinago.jpg',
         audio: '',
       },
       {
@@ -410,7 +410,7 @@ const data = [
         weight: 'самцы 730-1180 г, самки 560-770 г',
         length: '52-64 см',
         wingspan: '120-150 см',
-        image: '',
+        image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/fifth_level/3_larus.jpg',
         audio: '',
       },
       {
@@ -425,7 +425,7 @@ const data = [
         weight: 'самцы 90-149 г, самки 102-120 г',
         length: '27-31 см',
         wingspan: '50-65 см',
-        image: '',
+        image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/fifth_level/4_tringa.jpg',
         audio: '',
       },
       {
@@ -440,7 +440,7 @@ const data = [
         weight: 'самцы 44,5-57,4 г, самки 45,6-56,5 г',
         length: '19,5-23 см',
         wingspan: '35.5-41 см',
-        image: '',
+        image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/fifth_level/5_calidris.jpg',
         audio: '',
       },
       {
@@ -455,7 +455,7 @@ const data = [
         weight: 'самцы 31,5-38 г, самки 35,6-46,5 г',
         length: '16-19 см',
         wingspan: '35,5-38,5 см',
-        image: '',
+        image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/fifth_level/6_charadrius.jpg',
         audio: '',
       }
     ],
@@ -472,7 +472,7 @@ const data = [
         weight: 'самцы 2,8-4,5 кг, самки 3,8-5,8 кг',
         length: 'самцы 82-91 см, самки 89-102 см',
         wingspan: '175-220 см',
-        image: '',
+        image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/sixth_level/1_aquila.jpg',
         audio: '',
       },
       {
@@ -487,7 +487,7 @@ const data = [
         weight: 'самцы 1.4-1.65 кг, самки 1.6-1.8 кг',
         length: '62-75 см',
         wingspan: '160-180 см',
-        image: '',
+        image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/sixth_level/2_circaetus.jpg',
         audio: '',
       },
       {
@@ -502,7 +502,7 @@ const data = [
         weight: 'самцы 1,25-1,52 кг, самки 1,5-2,1 кг',
         length: '56-62 см',
         wingspan: '147-169 см',
-        image: '',
+        image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/sixth_level/3_pandion.jpg',
         audio: '',
       },
       {
@@ -517,7 +517,7 @@ const data = [
         weight: 'самцы 580-896 г, самки 810-1105 г',
         length: '58-62 см',
         wingspan: '115-135 см',
-        image: '',
+        image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/sixth_level/4_pernis.jpg',
         audio: '',
       },
       {
@@ -532,7 +532,7 @@ const data = [
         weight: 'самцы 540-790 г, самки 710-1270 г',
         length: '45-57 см',
         wingspan: '101-128 см',
-        image: '',
+        image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/sixth_level/5_buteo.jpg',
         audio: '',
       },
       {
@@ -547,7 +547,7 @@ const data = [
         weight: 'самцы 165-208 г, самки 226-312 г',
         length: '29-37 см',
         wingspan: '72-84 см',
-        image: '',
+        image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/sixth_level/6_falco.jpg',
         audio: '',
       }
     ],
