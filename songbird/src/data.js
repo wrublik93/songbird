@@ -12,7 +12,7 @@ const data = [
         weight: 'самцы 2,9-3,6 кг, самки 2,9-3,1 кг',
         length: '97-110 см',
         wingspan: '200-220 см',
-        image: 'https://live.staticflickr.com/65535/48282626752_4c121a8c7a.jpg',
+        image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/first_level/1_ciconia.jpg',
         audio: 'https://www.xeno-canto.org/sounds/uploaded/LNDCYHUSPR/XC527477-12%20feb.%2013.35%20cig%C3%BCe%C3%B1as.mp3',
       },
       {
@@ -27,7 +27,7 @@ const data = [
         weight: 'самцы 0,96-1,7 кг, самки 0,86-1,1 кг',
         length: '72-77 см',
         wingspan: '105-120 см',
-        image: '',
+        image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/first_level/2_botalurus.jpg',
         audio: 'https://www.xeno-canto.org/sounds/uploaded/VOLIQOYWKG/XC522467-180505_04_roerdomp_%20belarus%20fishfarm_.mp3',
       },
       {
@@ -42,7 +42,7 @@ const data = [
         weight: '530-780 г (оба пола)',
         length: '51-66 см',
         wingspan: '80-105 см',
-        image: '',
+        image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/first_level/3_plegadis.jpg',
         audio: '',
       },
       {
@@ -57,7 +57,7 @@ const data = [
         weight: '550-650 г (оба пола)',
         length: '58-65 см',
         wingspan: '95-112 см',
-        image: '',
+        image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/first_level/4_nycticorax.jpg',
         audio: '',
       },
       {
@@ -72,7 +72,7 @@ const data = [
         weight: '1,5-1,8 кг (оба пола)',
         length: '75-90 см',
         wingspan: '115-145 см',
-        image: '',
+        image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/first_level/5_platalea.jpg',
         audio: '',
       },
       {
@@ -87,7 +87,7 @@ const data = [
         weight: 'самцы 1,3-2,25 кг, самки 1,1-2,1 кг',
         length: '92-99 см',
         wingspan: '145-170 см',
-        image: '',
+        image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/first_level/6_ardea.jpg',
         audio: '',
       }
     ],
