@@ -7,8 +7,16 @@
 }
 
 .wrapper {
-  color: #FFFF73;
-  max-width: 1100px;
+  color: #ffff73;
+  max-width: 1200px;
+  box-sizing: border-box;
+  padding: 0 20px;
   margin: 0 auto;
   text-align: center;
+}
+
+@media (max-width: 480px) {
+  .wrapper {
+    padding: 0 10px;
+  }
 }
