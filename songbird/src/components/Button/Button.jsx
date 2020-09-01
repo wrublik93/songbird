@@ -5,15 +5,16 @@ function Button({
     setStatusGame,
     currentBirdCategory,
     setCurrentBirdCategory,
-    setUserResponse,
+    setUserSelect,
     setPointsRound,
     correctAnswer,
 }) {
-    const buttonStyle = correctAnswer ? 'button_active' : 'button';
+    const buttonStyle = correctAnswer ? 'button-active' : 'button';
+
     return (
         <button
-            className={buttonStyle}
-            onClick={() => {
+            className = {buttonStyle}
+            onClick = {() => {
                 if(correctAnswer) {
                     if(currentBirdCategory < 5) {
                         setCurrentBirdCategory(currentBirdCategory + 1)
@@ -21,7 +22,7 @@ function Button({
                         setStatusGame(false);
                         setCurrentBirdCategory(0);
                     }
-                    setUserResponse('');
+                    setUserSelect('');
                     setPointsRound(5);
                 }
             }}

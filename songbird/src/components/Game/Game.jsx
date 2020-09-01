@@ -16,44 +16,44 @@ function Game({
   setCorrectAnswer,
   setPointsRound,
 }) {
-    const [userResponse, setUserResponse] = useState('');
-    const styleInstruction = `card_container instruction`;
+    const styleInstruction = `card-instruction`;
+    const [userSelect, setUserSelect] = useState('');
 
   return (
-    <main className="main">
+    <div>
       <Task
         correctAnswer = {correctAnswer}
         currentItem = {currentItem}
       />
-      <div className="response">
+      <div className = "answers-card-container">
         <Answer
           data = {data}
           currentBirdCategory = {currentBirdCategory}
           currentItem = {currentItem}
           correctAnswer = {correctAnswer}
           pointsRound = {pointsRound}
-          setUserResponse = {setUserResponse}
+          setUserSelect = {setUserSelect}
           setCorrectAnswer = {setCorrectAnswer}
           setPointsRound = {setPointsRound}
         />
-        {userResponse ? (
-          <Card userResponse={userResponse} />
+        {userSelect ? (
+          <Card userSelect = {userSelect} />
         ) : (
-          <div className={styleInstruction}>
+          <div className = {styleInstruction}>
             Прослушайте плеер и выберите птицу из списка.
             Следующий уровень будет доступен после правильного ответа!
           </div>
         )}
       </div>
       <Button
-        currentBirdCategory={currentBirdCategory}
-        correctAnswer={correctAnswer}
-        setStatusGame={setStatusGame}
-        setCurrentBirdCategory={setCurrentBirdCategory}
-        setUserResponse={setUserResponse}
-        setPointsRound={setPointsRound}
+        currentBirdCategory = {currentBirdCategory}
+        correctAnswer = {correctAnswer}
+        setStatusGame = {setStatusGame}
+        setCurrentBirdCategory = {setCurrentBirdCategory}
+        setUserSelect = {setUserSelect}
+        setPointsRound = {setPointsRound}
       />
-    </main>
+    </div>
   );
 }
 

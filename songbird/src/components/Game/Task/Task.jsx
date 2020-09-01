@@ -7,21 +7,28 @@ function Task({
     correctAnswer,
     currentItem,
 }) {
-    const birdName = correctAnswer ? currentItem.name : '******';
+    const birdName = correctAnswer ? `${currentItem.name}` : '******';
+    const birdNameLatin = correctAnswer ? `${currentItem.nameLatin}` : '******';
+
     const birdImage = correctAnswer ? currentItem.image : taskImage;
 
-    const styleTask = `question title_song`
     return (
-        <div className="task_container">
-            <div 
-                style={{ backgroundImage: `url(${birdImage})` }}
-                className="stub_picture"
-            >
-
+        <div className = "task-container">
+            <div className = "task-image-container">
+                <div 
+                    className = "task-image"
+                    style = {{ backgroundImage: `url(${birdImage})` }}
+                >
+                </div>
             </div>
-            <div className={styleTask}>
-                <p>{birdName}</p>
-                <Player 
+            <div className = "task-content">
+                <div className = "task-bird-name">
+                    {birdName}
+                </div>
+                <div className = "task-bird-name-latin">
+                    {birdNameLatin}
+                </div>
+                <Player
                     audio = {currentItem.audio}
                     correctAnswer = {correctAnswer}
                 />

@@ -3,25 +3,50 @@ import Player from '../../Player/Player';
 import './Card.scss';
 
 function Card({
-    userResponse,
+    userSelect,
 }) {
     return (
-        <div className="card_container">
-            <div className="card">
-                <div
-                    style={{ backgroundImage: `url(${userResponse.image})` }}
-                    className="stub_picture"
-                >
+        <div className = "card-container">
+            <div className = "card-content-main">
+                <div className = "card-content-main-image-container">
+                    <div
+                        className = "card-content-main-image"
+                        style = {{ backgroundImage: `url(${userSelect.image})` }}
+                    >
+                    </div>
                 </div>
-                <div className="title_bird">
-                    <p className="name">{userResponse.name}</p>
-                    <p className="species">{userResponse.species}</p>
+                <div className = "card-content-main-info">
+                    <p className = "card-name">
+                        {userSelect.name}
+                    </p>
+                    <p className = "card-name-latin">
+                        {userSelect.nameLatin}
+                    </p>
                     <Player 
-                        audio={userResponse.audio}
+                        audio = {userSelect.audio}
                     />
                 </div>
             </div>
-            <div className="description">{userResponse.description}</div>
+            <div className = "card-specification">
+                <div className = "card-band">
+                    Отряд: {userSelect.band} ({userSelect.bandLatin})
+                </div>
+                <div className = "card-family">
+                    Семейство: {userSelect.family} ({userSelect.familyLatin})
+                </div>
+                <div className = "card-weight">
+                    Вес: {userSelect.weight}
+                </div>
+                <div className = "card-length">
+                    Длина тела: {userSelect.length}
+                </div>
+                <div className = "card-wingspan">
+                    Размах крыльев: {userSelect.wingspan}
+                </div>
+            </div>
+            <div className = "card-description">
+                {userSelect.description}
+            </div>
         </div>
     )
 };

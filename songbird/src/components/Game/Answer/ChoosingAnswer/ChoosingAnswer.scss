@@ -1,0 +1,31 @@
+.choosing-answer-indicator {
+  background-color: #ffff73;
+  width: 10px;
+  height: 10px;
+  margin-right: 15px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.choosing-answer-false {
+  background-color: red;
+}
+
+.choosing-answer-true {
+  background-color: green;
+}
+
+  
+.choosing-answer-item {
+  border: solid 1px;
+  list-style-type: none;
+  cursor: pointer;
+  padding: 12px 0 12px 25px;
+  text-align: left;
+  background-color: #39495691;
+}
+
+.choosing-answer-item:hover {
+  background-color: black;
+  font-weight: bold;
+}

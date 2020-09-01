@@ -1,11 +1,11 @@
 import React from 'react';
-import PossibleAnswer from './PossibleAnswer/PossibleAnswer';
+import ChoosingAnswer from './ChoosingAnswer/ChoosingAnswer';
 import './Answer.scss';
 
 function Answer({
     data,
     currentBirdCategory,
-    setUserResponse,
+    setUserSelect,
     currentItem,
     correctAnswer,
     setCorrectAnswer,
@@ -14,22 +14,24 @@ function Answer({
 }) {
     const addAnswerOptions = data[currentBirdCategory].map((el) => {
         return (
-            <PossibleAnswer 
-                el={el}
-                key={el.id}
-                setUserResponse={setUserResponse}
-                currentItem={currentItem}
-                correctAnswer={correctAnswer}
-                setCorrectAnswer={setCorrectAnswer}
-                currentBirdCategory={currentBirdCategory}
-                pointsRound={pointsRound}
-                setPointsRound={setPointsRound}
+            <ChoosingAnswer
+                key = {el.id} 
+                el = {el}
+                currentItem = {currentItem}
+                correctAnswer = {correctAnswer}
+                currentBirdCategory = {currentBirdCategory}
+                pointsRound = {pointsRound}
+                setUserSelect = {setUserSelect}
+                setCorrectAnswer = {setCorrectAnswer}
+                setPointsRound = {setPointsRound}
             />
         )
     })
     return (
-        <div className="options">
-            <ul className="list-answer">{addAnswerOptions}</ul>
+        <div className="answer-variants-container">
+            <ul className="answer-list">
+                {addAnswerOptions}
+            </ul>
         </div>
     )
 };

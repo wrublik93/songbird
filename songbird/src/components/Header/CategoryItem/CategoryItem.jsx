@@ -5,10 +5,10 @@ function CategoryItem({
   category, 
   isActiveCategory 
 }) {
-  const activeStyle = isActiveCategory ? `link active` : `link`
+  const activeCategoryStyle = isActiveCategory ? `category-link category-active` : `category-link`
   return (
-    <li className={activeStyle}>
-      <a>{category} </a>
+    <li className={activeCategoryStyle}>
+      <a>{category}</a>
     </li>
   );
 }

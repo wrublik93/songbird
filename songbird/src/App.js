@@ -25,20 +25,15 @@ function App() {
   }, [correctAnswer]);
 
   function shuffleWords(words) {
-    const arr = [...words];
-    for (let i = arr.length - 1; i > 0; i -= 1) {
+    const arrayWords = [...words];
+    for (let i = arrayWords.length - 1; i > 0; i -= 1) {
       const j = Math.floor(Math.random() * (i + 1));
-      const temp = arr[j];
-      arr[j] = arr[i];
-      arr[i] = temp;
+      const temp = arrayWords[i];
+      arrayWords[i] = arrayWords[j];
+      arrayWords[j] = temp;
     }
-    console.log(
-      'Правильный ответ в категории',
-      category[currentBirdCategory],
-      ':',
-      arr[0].name
-    );
-    return arr[0];
+    console.log('Ответ:', arrayWords[0].name);
+    return arrayWords[0];
   }
 
   return (

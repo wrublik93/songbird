@@ -23,6 +23,7 @@ function Result({
                 score === 30 && (
                     <Win 
                         setStatusGame = {setStatusGame}
+                        score = {score}
                         setScore = {setScore}
                     />
                 )
