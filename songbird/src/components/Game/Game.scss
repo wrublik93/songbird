@@ -1,37 +1,25 @@
-.response {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 100%;
-    margin: 20px 0;
+.answers-card-container {
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px 0;
+}
+
+.card-instruction {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 15px;
+  background-color: #394956ad;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.16), 0 6px 12px rgba(0,0,0,0.23);
+  font-size: 24px;
+}
+
+@media (max-width: 890px) {
+  .answers-card-container {
+    flex-direction: column;
   }
-  .card_container {
-    background-color: #394956ad;
-    width: 63%;
-  }
-  .instruction {
+  .card-instruction {
+    width: auto;
     font-size: 18px;
-    padding-top: 50px;
   }
-  
-  @media (max-width: 950px) {
-    .card_container {
-      flex-direction: column;
-      padding-bottom: 10px;
-      padding-top: 10px;
-    }
-    .instruction {
-      font-size: 16px;
-    }
-  }
-  @media (max-width: 770px) {
-    .response-container {
-      flex-direction: column;
-    }
-  
-    .card_container {
-      margin-top: 20px;
-      width: 100%;
-      flex-direction: row;
-    }
-  }
+}
