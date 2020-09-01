@@ -1,10 +1,28 @@
-.active {
-    background-color: black;
-    font-weight: bold;
+.category-active {
+  background-color: black;
+  border-radius: 20px;
+  font-weight: bold;
 }
 
-.link {
-    width: 167px;
-  padding: 8px;
+.category-link {
+  padding: 10px;
+  width: 170px;
   list-style-type: none;
+}
+
+@media (max-width: 1180px){
+  .category-link {
+    width: 29%;
+  } 
+}
+
+@media (max-width: 610px){
+  .category-link {
+    width: 45%;
+  } 
+}
+@media (max-width: 430px){
+  .category-link {
+    width: 100%;
+  } 
 }
