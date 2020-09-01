@@ -28,7 +28,7 @@ const data = [
         length: '72-77 см',
         wingspan: '105-120 см',
         image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/first_level/2_botalurus.jpg',
-        audio: 'https://www.xeno-canto.org/sounds/uploaded/VOLIQOYWKG/XC522467-180505_04_roerdomp_%20belarus%20fishfarm_.mp3',
+        audio: 'https://www.xeno-canto.org/sounds/uploaded/XOQFRJGWGC/XC509465-Rohrdommel_Flugruf_AZE_p_20191113002500_00.mp3',
       },
       {
         id: 3,
@@ -43,7 +43,7 @@ const data = [
         length: '51-66 см',
         wingspan: '80-105 см',
         image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/first_level/3_plegadis.jpg',
-        audio: '',
+        audio: 'https://www.xeno-canto.org/sounds/uploaded/PNYKOPBQBQ/XC530553-PLEFAL240220-T004%20(2).mp3',
       },
       {
         id: 4,
@@ -58,7 +58,7 @@ const data = [
         length: '58-65 см',
         wingspan: '95-112 см',
         image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/first_level/4_nycticorax.jpg',
-        audio: '',
+        audio: 'https://www.xeno-canto.org/sounds/uploaded/ZNCDXTUOFL/XC580668-JAREK-MATUSIAK-823%20(3.mp3',
       },
       {
         id: 5,
@@ -73,7 +73,7 @@ const data = [
         length: '75-90 см',
         wingspan: '115-145 см',
         image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/first_level/5_platalea.jpg',
-        audio: '',
+        audio: 'https://www.xeno-canto.org/sounds/uploaded/SDPCHKOHRH/XC380956-cri%20spatule.mp3',
       },
       {
         id: 6,
@@ -88,7 +88,7 @@ const data = [
         length: '92-99 см',
         wingspan: '145-170 см',
         image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/first_level/6_ardea.jpg',
-        audio: '',
+        audio: 'https://www.xeno-canto.org/sounds/uploaded/JXZFXAZWHY/XC572591-siwa.27.08.01.20.ZOOM0004.mp3',
       }
     ],
     [
@@ -105,7 +105,7 @@ const data = [
         length: '32-36 см',
         wingspan: '62-69 см',
         image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/second_level/1_bucephala.jpg',
-        audio: '',
+        audio: 'https://www.xeno-canto.org/sounds/uploaded/WDMGSYQBRL/XC234677-Default%20Project.mp3',
       },
       {
         id: 2,
@@ -120,7 +120,7 @@ const data = [
         length: '61-90 см',
         wingspan: '152-166 см',
         image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/second_level/2_anser.jpg',
-        audio: '',
+        audio: 'https://www.xeno-canto.org/sounds/uploaded/VCROLXMVLX/XC167878-Anserfabalis_nowydwor_22.02.2014_7.mp3',
       },
       {
         id: 3,
@@ -135,7 +135,7 @@ const data = [
         length: '76-92 см',
         wingspan: '143-174 см',
         image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/second_level/3_anser_grey.jpg',
-        audio: '',
+        audio: 'https://www.xeno-canto.org/sounds/uploaded/ZNCDXTUOFL/XC549740-JAREK-MATUSIAK-A-512%20(2)%20g%C4%99gawy.mp3',
       },
       {
         id: 4,
@@ -150,7 +150,7 @@ const data = [
         length: '51-63 см',
         wingspan: '82-100 см',
         image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/second_level/4_platyrhynchos.jpg',
-        audio: '',
+        audio: 'https://www.xeno-canto.org/sounds/uploaded/RLRHCUIPIY/XC548878-krzy%C5%BC%C3%B3wka%20%C5%BBwak%C3%B3w%2021.04.2020%20%2020.36.mp3',
       },
       {
         id: 5,
@@ -165,7 +165,7 @@ const data = [
         length: '144-187 см',
         wingspan: '194-228 см',
         image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/second_level/5_cygnus.jpg',
-        audio: '',
+        audio: 'https://www.xeno-canto.org/sounds/uploaded/RLRHCUIPIY/XC555101-ab%C4%99d%C5%BA%20niemy%20Staw%20Stary%202%207.05.2020%20%2020.08.mp3',
       },
       {
         id: 6,
@@ -180,7 +180,7 @@ const data = [
         length: 'самцы 61-76 см, самки 51-60 см',
         wingspan: '84-91 см',
         image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/second_level/6_acuta.jpg',
-        audio: '',
+        audio: 'https://www.xeno-canto.org/sounds/uploaded/ZNCDXTUOFL/XC129047-Anas_acuta_Poland_Jarek_Matusiak_20130408-024.mp3',
       }
     ],
     [
@@ -197,7 +197,7 @@ const data = [
         length: '40-64 см',
         wingspan: '96-130 см',
         image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/third_level/1_tetrao_urogallus.jpg',
-        audio: '',
+        audio: 'https://www.xeno-canto.org/sounds/uploaded/BPSDQEOJWG/XC554017-(2020-05-02%2004-27)-LS143782%20-%20kopia.mp3',
       },
       {
         id: 2,
@@ -212,7 +212,7 @@ const data = [
         length: '16-21,5 см',
         wingspan: '33-39 см',
         image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/third_level/2_coturnix.jpg',
-        audio: '',
+        audio: 'https://www.xeno-canto.org/sounds/uploaded/WDMGSYQBRL/XC234684-Default%20Project.mp3',
       },
       {
         id: 3,
@@ -227,7 +227,7 @@ const data = [
         length: '15,5-31,5 см',
         wingspan: '48-55 см',
         image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/third_level/3_perdix.jpg',
-        audio: '',
+        audio: 'https://www.xeno-canto.org/sounds/uploaded/ZNCDXTUOFL/XC557288-JAREK-MATUSIAK-A-597%20(2)%20kuropatwa%20(2).mp3',
       },
       {
         id: 4,
@@ -242,7 +242,7 @@ const data = [
         length: '32-40 см',
         wingspan: '54-64 см',
         image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/third_level/4_bonasa.jpg',
-        audio: '',
+        audio: 'https://www.xeno-canto.org/sounds/uploaded/ZNCDXTUOFL/XC407889-Jarz%C4%85bek_Bonasa_bonasia_bonasia_Poland_Jarek_Matusiak_600.mp3',
       },
       {
         id: 5,
@@ -257,7 +257,7 @@ const data = [
         length: 'самцы 51-71 см, самки 41-51 см',
         wingspan: 'самцы 81-100, самки 66-80 см',
         image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/third_level/5_lyrix.jpg',
-        audio: '',
+        audio: 'https://www.xeno-canto.org/sounds/uploaded/WDMGSYQBRL/XC234679-Default%20Project.mp3',
       },
       {
         id: 6,
@@ -272,7 +272,7 @@ const data = [
         length: 'самцы 71-83 см, самки 59-70 см',
         wingspan: 'самцы 75-80, самки 66-70 см',
         image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/third_level/6_phasianus.jpg',
-        audio: '',
+        audio: 'https://www.xeno-canto.org/sounds/uploaded/RLRHCUIPIY/XC557017-ba%C5%BCant%20Wyry%2010.05.2020%20%2013.07.mp3',
       }
     ],
     [
@@ -289,7 +289,7 @@ const data = [
         length: '60-67 см',
         wingspan: '115-150 см',
         image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/forth_level/1_corvus.jpg',
-        audio: '',
+        audio: 'https://www.xeno-canto.org/sounds/uploaded/WDMGSYQBRL/XC234579-Default%20Project.mp3',
       },
       {
         id: 2,
@@ -304,7 +304,7 @@ const data = [
         length: '11-12,5 см',
         wingspan: '20-23 см',
         image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/forth_level/2_carduelis.jpg',
-        audio: '',
+        audio: 'https://www.xeno-canto.org/sounds/uploaded/ZNCDXTUOFL/XC559409-JAREK-MATUSIAK-A-648%20(2)%20szczygie%C5%82.mp3',
       },
       {
         id: 3,
@@ -319,7 +319,7 @@ const data = [
         length: '17-20,5 см',
         wingspan: '30-38 см',
         image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/forth_level/3_alauda.jpg',
-        audio: '',
+        audio: 'https://www.xeno-canto.org/sounds/uploaded/ZNCDXTUOFL/XC568881-JAREK-MATUSIAK-594%20skowronek.mp3',
       },
       {
         id: 4,
@@ -334,7 +334,7 @@ const data = [
         length: '13-16 см',
         wingspan: '26-32 см',
         image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/forth_level/4_delichon.jpg',
-        audio: '',
+        audio: 'https://www.xeno-canto.org/sounds/uploaded/RLRHCUIPIY/XC492095-okn%C3%B3wka3%20flight%20Bukowina.mp3',
       },
       {
         id: 5,
@@ -349,7 +349,7 @@ const data = [
         length: '18-21 см',
         wingspan: '32-35,5 см',
         image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/forth_level/5_bombycilla.jpg',
-        audio: '',
+        audio: 'https://www.xeno-canto.org/sounds/uploaded/ZNCDXTUOFL/XC113541-Bombycilla_garrulus_Poland_Jarek_Matusiak_20121126-023.mp3',
       },
       {
         id: 6,
@@ -364,7 +364,7 @@ const data = [
         length: '23,5-25 см',
         wingspan: '44-47 см',
         image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/forth_level/6_oriolus.jpg',
-        audio: '',
+        audio: 'https://www.xeno-canto.org/sounds/uploaded/RLRHCUIPIY/XC557758-wilga%20alarm%20krogulec%20Czu%C5%82%C3%B3w%2012.05.2020%20%20%20%2017.28.mp3',
       }
     ],
     [
@@ -381,7 +381,7 @@ const data = [
         length: '28-34 см',
         wingspan: '66-80 см',
         image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/fifth_level/1_vanellus.jpg',
-        audio: '',
+        audio: 'https://www.xeno-canto.org/sounds/uploaded/RLRHCUIPIY/XC555845-czajka%20flight%20Staw%20Stary%209.05.2020%20%20%2018.06.mp3',
       },
       {
         id: 2,
@@ -396,7 +396,7 @@ const data = [
         length: '24,5-31 см',
         wingspan: '43-48 см',
         image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/fifth_level/2_gallinago.jpg',
-        audio: '',
+        audio: 'https://www.xeno-canto.org/sounds/uploaded/CVLRXNQXVL/XC477437-doppelschnepfe_190518_turov.mp3',
       },
       {
         id: 3,
@@ -411,7 +411,7 @@ const data = [
         length: '52-64 см',
         wingspan: '120-150 см',
         image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/fifth_level/3_larus.jpg',
-        audio: '',
+        audio: 'https://www.xeno-canto.org/sounds/uploaded/ZNCDXTUOFL/XC128374-Larus_fuscus_Poland_Jarek_Matusiak_20120403-020.mp3',
       },
       {
         id: 4,
@@ -426,7 +426,7 @@ const data = [
         length: '27-31 см',
         wingspan: '50-65 см',
         image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/fifth_level/4_tringa.jpg',
-        audio: '',
+        audio: 'https://www.xeno-canto.org/sounds/uploaded/VCROLXMVLX/XC561285-tringa_totanus_podlaskie_2020.05.23_0855.mp3',
       },
       {
         id: 5,
@@ -441,7 +441,7 @@ const data = [
         length: '19,5-23 см',
         wingspan: '35.5-41 см',
         image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/fifth_level/5_calidris.jpg',
-        audio: '',
+        audio: 'https://www.xeno-canto.org/sounds/uploaded/ZNCDXTUOFL/XC284758-Biegus_zmienny_Calidris_alpina_Poland_Jarek_Matusiak_20150920_83.mp3',
       },
       {
         id: 6,
@@ -456,7 +456,7 @@ const data = [
         length: '16-19 см',
         wingspan: '35,5-38,5 см',
         image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/fifth_level/6_charadrius.jpg',
-        audio: '',
+        audio: 'https://www.xeno-canto.org/sounds/uploaded/RLRHCUIPIY/XC559766-sieweczka%20rzeczna%20%2019.05.2020%20%2018.20.mp3',
       }
     ],
     [
@@ -473,7 +473,7 @@ const data = [
         length: 'самцы 82-91 см, самки 89-102 см',
         wingspan: '175-220 см',
         image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/sixth_level/1_aquila.jpg',
-        audio: '',
+        audio: 'https://www.xeno-canto.org/sounds/uploaded/WIPMNWUHXI/XC394021-GeRav_Teici_170923_0936.mp3',
       },
       {
         id: 2,
@@ -488,7 +488,7 @@ const data = [
         length: '62-75 см',
         wingspan: '160-180 см',
         image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/sixth_level/2_circaetus.jpg',
-        audio: '',
+        audio: 'https://www.xeno-canto.org/sounds/uploaded/ENDNXCVYXJ/XC566267-Snake_Eagle_Potashnja_2020-06-07.mp3',
       },
       {
         id: 3,
@@ -503,7 +503,7 @@ const data = [
         length: '56-62 см',
         wingspan: '147-169 см',
         image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/sixth_level/3_pandion.jpg',
-        audio: '',
+        audio: 'https://www.xeno-canto.org/sounds/uploaded/EVFVYRATSX/XC424249-Pandion%20haliaetus_Nakielno_180703_06.mp3',
       },
       {
         id: 4,
@@ -518,7 +518,7 @@ const data = [
         length: '58-62 см',
         wingspan: '115-135 см',
         image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/sixth_level/4_pernis.jpg',
-        audio: '',
+        audio: 'https://www.xeno-canto.org/sounds/uploaded/EHAHTZIMID/XC154438-PEA%2015-08-2013.mp3',
       },
       {
         id: 5,
@@ -533,7 +533,7 @@ const data = [
         length: '45-57 см',
         wingspan: '101-128 см',
         image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/sixth_level/5_buteo.jpg',
-        audio: '',
+        audio: 'https://www.xeno-canto.org/sounds/uploaded/WDMGSYQBRL/XC234607-Default%20Project.mp3',
       },
       {
         id: 6,
@@ -548,271 +548,10 @@ const data = [
         length: '29-37 см',
         wingspan: '72-84 см',
         image: 'https://raw.githubusercontent.com/wrublik93/songbird/assets/assets/images/sixth_level/6_falco.jpg',
-        audio: '',
+        audio: 'https://www.xeno-canto.org/sounds/uploaded/RWHGTWZNPX/XC116925-Falsub_Poland_PSz_2012_07_22.MP3',
       }
     ],
-
-
-
-
-
-
-
-
-
-
-    [
-      {
-        id: 1,
-        name: 'Воробей',
-        species: 'Passer domesticus',
-        description: 'Воробьи являются самыми известными и узнаваемыми пернатыми. Их легко узнать по пестрому оперению и задорному чириканью. Воробьи относятся к синатропному виду — они селятся поблизости к человеческому жилищу.',
-        image: 'https://live.staticflickr.com//65535//49366595303_06cf65b07e.jpg',
-        audio: 'https://www.xeno-canto.org/sounds/uploaded/CXFHOPIVAS/XC503224-191020_0134.mp3'
-      },
-      {
-        id: 2,
-        name: 'Грач',
-        species: 'Corvus frugilegus',
-        description: 'Грачи очень умные и сообразительные птицы. С помощью клюва они создают и используют простейшие орудия. У грачей развит рефлекс на звуки трактора. Услышав «тарахтение», они летят на звук – трактор пашет землю, значит, в этом месте много корма.',
-        image: 'https://live.staticflickr.com//65535//49347123322_291c86b016.jpg',
-        audio: 'https://www.xeno-canto.org/sounds/uploaded/RLRHCUIPIY/XC512540-gawron%20Suble%2019.12.19%20%2012.35.mp3'
-      },
-      {
-        id: 3,
-        name: 'Галка',
-        species: 'Coloeus monedula',
-        description: 'Слово «галка» произошло из старославянского языка и переводится как «чёрный». Этим словом часто называют воронов или других черных птиц. Латинское название галки «monedula» связывают со словами монета за любовь птицы к блестящим и ярким вещам.',
-        image: 'https://live.staticflickr.com//65535//49237149586_993cf685c5.jpg',
-        audio: 'https://www.xeno-canto.org/sounds/uploaded/GYAUIPUVNM/XC510498-Coloeus%20monedula_2019.11.13_11.55_01.mp3'
-      },
-      {
-        id: 4,
-        name: 'Певчий дрозд',
-        species: 'Turdus philomelos',
-        description: 'Дрозд — лучший певец из отряда воробьиных. Песня состоит только из красивых звучных свистов и коротких трелей. Чаще всего её можно услышать в утреннее и вечернее время. Поют дрозды в течении всего периода гнездования.',
-        image: 'https://live.staticflickr.com/65535/48979125763_e2534f54bd.jpg',
-        audio: 'https://www.xeno-canto.org/sounds/uploaded/BLMSIUFTFU/XC513326-190704_1146_TF-Glogow.mp3'
-      },
-      {
-        id: 5,
-        name: 'Сорока',
-        species: 'Pica pica',
-        description: 'Сорока очень трудолюбивая птица. Она строит до восьми гнёзд, а потом выбирает из них самое лучшее. Вход в гнездо сорок всегда обращен на юг, чтобы в жилище было теплее. Сороки являются единственными птицами, которые узнают себя в зеркале.',
-        image: 'https://live.staticflickr.com//65535//49360363066_ff02bb6a73.jpg',
-        audio: 'https://www.xeno-canto.org/sounds/uploaded/GYAUIPUVNM/XC500868-Pica%20pica2019.08.23_09.18_02.mp3'
-      },
-      {
-        id: 6,
-        name: 'Сойка',
-        species: 'Garrulus glandarius',
-        description: 'Когда сойка волнуется, хохолок на её голове взъерошивается. Птица старается создать устрашающее зрелище. Сойки умеют имитировать голоса других птиц, животных и звуки, которые создает человек. На зиму они делают большие запасы желудей и орехов.',
-        image: 'https://live.staticflickr.com//65535//49369678956_9a7465c7f4.jpg',
-        audio: 'https://www.xeno-canto.org/sounds/uploaded/TFOGOENSTQ/XC501517-191008_1590%201300.%20Eichelh%C3%A4her%20D%2C%20NW%2C%20LEV.%20Stephan%20Risch.mp3'
-      }
-    ],
-    [
-      {
-        id: 1,
-        name: 'Зяблик',
-        species: 'Fringilla coelebs',
-        description: 'В дикой природе насчитывается 450 видов зябликов. Зимой зяблики ведут стайный образ жизни. Иногда в их семьях можно увидеть воробьев. Запевают зяблики весной, с наступлением брачного периода. Их пение – это заливистые многоминутные рулады.',
-        image: 'https://live.staticflickr.com/65535/49143150817_2d3a2f6c1e.jpg',
-        audio: 'https://www.xeno-canto.org/sounds/uploaded/ZNCDXTUOFL/XC512407-150622_03%20zi%C4%99ba%20%282%29.mp3'
-      },
-      {
-        id: 2,
-        name: 'Клёст',
-        species: 'Loxia curvirostra',
-        description: 'Клестов называют «рождественскими» птицами. В естественных условиях они дают потомство зимой – в январе. Эти птицы утепляют свои гнезда мхом и шерстью животных, потому птенцам не холодно. В поисках шишек клесты могут улетать за 3500 км от гнезда.',
-        image: 'https://live.staticflickr.com//65535//49365470123_f2de66bb35.jpg',
-        audio: 'https://www.xeno-canto.org/sounds/uploaded/OTVUCEGYZN/XC495381-Kruisbek%20roep%20NHD%20290619.mp3'
-      },
-      {
-        id: 3,
-        name: 'Горлица',
-        species: 'Streptopelia turtur',
-        description: 'Горлица обитает в смешанных и широколиственных лесах, а также в городских парках и поселках. Птицы часто выбирают места жизни рядом с человеком и легко привыкают к людям. Благодаря мелодичному приятному пению горлиц часто разводят в домашних условиях.',
-        image: 'https://live.staticflickr.com/65535/48063004977_84252f9ceb.jpg',
-        audio: 'https://www.xeno-canto.org/sounds/uploaded/ZNCDXTUOFL/XC324106-Turkawka_Streptopelia_turtur_Poland_Jarek_Matusiak_2011625_07.mp3'
-      },
-      {
-        id: 4,
-        name: 'Дятел',
-        species: 'Dendrocopos major',
-        description: 'Дятел – заметная и шумная птица, часто живет рядом с человеком. С середины января до конца июня можно услышать «барабанную дробь» дятлов – трель от вибрации веток под быстрыми ударами клюва птицы. В хорошую погоду дробь слышна в радиусе 1,5 км.',
-        image: 'https://live.staticflickr.com/65535/49339376578_e933426455.jpg',
-        audio: 'https://www.xeno-canto.org/sounds/uploaded/ZNCDXTUOFL/XC518928-AB-017%20dzi%C4%99cio%C5%82%20du%C5%BCy%20agresja%20%282%29.mp3'
-      },
-      {
-        id: 5,
-        name: 'Удод',
-        species: 'Upupa epops',
-        description: 'Удоды предпочитают жить на открытых ландшафтах с отдельными деревьями или рощами. Наиболее удобными для птицы являются лесостепь и саванна. Удод может выбирать места жительства рядом с человеком: пастбища, виноградники, фруктовые сады.',
-        image: 'https://live.staticflickr.com//65535//49226383598_6f8be86a06.jpg',
-        audio: 'https://www.xeno-canto.org/sounds/uploaded/ZNCDXTUOFL/XC477326-dudek%20%282%29.mp3'
-      },
-      {
-        id: 6,
-        name: 'Стриж',
-        species: 'Apus apus',
-        description: 'Стрижа можно увидеть практически в каждом уголке планеты. Они обитают как в лесных зонах, так и на открытых местностях. Живут стрижи крупными стаями. Большие колонии этих птиц можно увидеть в городах или на прибрежных скалах.',
-        image: 'https://live.staticflickr.com//65535//48386150031_7b749df74b.jpg',
-        audio: 'https://www.xeno-canto.org/sounds/uploaded/TMUAWSDHDJ/XC511871-G.mp3'
-      }
-    ],
-    [
-      {
-        id: 1,
-        name: 'Жаворонок',
-        species: 'Alauda arvensis',
-        description: 'Жаворонки — перелетные птицы. С начала сентября они отлетают на юг. Возвращаются они в начале марта, независимо от того, сошел снег или нет. По прилету жаворонков определяли наступление весны и пору, когда пора пахать землю.',
-        image: 'https://live.staticflickr.com/65535/47105096764_f751fba568.jpg',
-        audio: 'https://www.xeno-canto.org/sounds/uploaded/ZNCDXTUOFL/XC462158-Skowronek_Alauda_arvensis_Poland_Jarek_Matusiak_%20-006%20skowronek%20%282%29.mp3'
-      },
-      {
-        id: 2,
-        name: 'Соловей',
-        species: 'Luscinia luscinia',
-        description: 'Соловьи поют с начала мая и до конца лета. Каждая песня соловья состоит из 12 повторяющихся элементов, которые еще называют коленами. Кроме собственных трелей, соловьи легко и хорошо перенимают пение других птиц.',
-        image: 'https://live.staticflickr.com/7605/27669397735_f3c21758f2.jpg',
-        audio: 'https://www.xeno-canto.org/sounds/uploaded/HILVWSADVL/XC513809-R07_0052%20Thrush%20Nightingale%20Snipe.mp3'
-      },
-      {
-        id: 3,
-        name: 'Скворец',
-        species: 'Sturnus vulgaris',
-        description: 'Скворцы - перелётные птицы. Синхронный перелет больших стай скворцов называется мурмурацией. Это красивое и завораживающее явление – множество птиц будто танцуют в воздухе, образуя замысловатые фигуры, которые уменьшаются и увеличиваются в небе.',
-        image: 'https://live.staticflickr.com/65535/49357593971_9509fe1d7c.jpg',
-        audio: 'https://www.xeno-canto.org/sounds/uploaded/GYAUIPUVNM/XC515519-2020.01.01_17.24_01.MP3'
-      },
-      {
-        id: 4,
-        name: 'Иволга',
-        species: 'Oriolus oriolus',
-        description: 'Мелодичность голоса иволги сравнивают со звучанием флейты. Человеку сложно разглядеть иволгу, так как она обитает высоко на деревьях. Иволга не только очень красивая, но и  полезная птица. Она уничтожает ядовитых гусениц, которых не поедают другие птицы.',
-        image: 'https://live.staticflickr.com/65535/47102184004_58a93380b9.jpg',
-        audio: 'https://www.xeno-canto.org/sounds/uploaded/GYAUIPUVNM/XC491801-2019.07.07_06.28_01.mp3'
-      },
-      {
-        id: 5,
-        name: 'Свиристель',
-        species: 'Bombycilla garrulus',
-        description: 'У свиристели очень цепкие коготки, что помогает птице удерживаться на ветках и склевывать ягоды, которые труднее всего достать. В период ухаживаний самец предлагает самке ягоду или другое угощение. Если самка его принимает, то птицы создают пару.',
-        image: 'https://live.staticflickr.com//65535//49367433842_1b06da0e6b.jpg',
-        audio: 'https://www.xeno-canto.org/sounds/uploaded/ZNCDXTUOFL/XC517421-AB-004%20%282%29%20jemio%C5%82uszka.mp3'
-      },
-      {
-        id: 6,
-        name: 'Щегол',
-        species: 'Carduelis carduelis',
-        description: 'Щеглы поют красиво и мелодично. И в природе, и в неволе они щебечут почти круглый год. В пении щегла различают более 20 переливчатых трелей. Щеглы привыкают к людям, и даже могут возвратиться к хозяину после того, как их выпустили на волю',
-        image: 'https://live.staticflickr.com//65535//49366257253_db3ce48b9a.jpg',
-        audio: 'https://www.xeno-canto.org/sounds/uploaded/VOLIQOYWKG/XC489265-190724_07.58h_putter_biesbosch_%20boompjes%20langs%20open%20water_zang_1ex_ad_niet%20gezien_.mp3'
-      }
-    ],
-    [
-      {
-        id: 1,
-        name: 'Орёл',
-        species: 'Aquila nipalensis',
-        description: 'В древние времена орел был символом солнца. Орлы часто парят над землей, при этом скорость их перемещения может достигать 240 км/ч. Иллюзия медленного движения происходит из-за высоты полета – более 700 метров',
-        image: 'https://live.staticflickr.com//4835//43867392960_7105d71e19.jpg',
-        audio: 'https://www.xeno-canto.org/sounds/uploaded/KTBTZAHSXF/10_Aquila_nipalensis_al02D85.mp3'
-      },
-      {
-        id: 2,
-        name: 'Коршун',
-        species: 'Milvus migrans',
-        description: 'Коршуны – крупные хищники, в высоту они достигают около полуметра, а вес взрослых особей достигает 1 кг. Крылья узкие и длинные, их размах составляет 1,5 м. Коршуны часто гнездятся большими стаями и даже образуют крупные колонии.',
-        image: 'https://live.staticflickr.com//65535//48701190276_ee2a9ed594.jpg',
-        audio: 'https://www.xeno-canto.org/sounds/uploaded/SDPCHKOHRH/XC485740-2019-06-22%20Selenga%20Milan%20brun%20cris%20de%20quemandage%203.mp3'
-      },
-      {
-        id: 3,
-        name: 'Лунь',
-        species: 'Circus cyaneus',
-        description: 'Лунь – это небольшой сокол. Питается в основном мышевидными грызунами, основа его рациона – полёвки, хомяки, мыши. Оперение луня может быть пепельно-серым. С такой птицей связано сравнение «седой, как лунь».',
-        image: 'https://live.staticflickr.com/4480/37240531151_b74619c99d.jpg',
-        audio: 'https://www.xeno-canto.org/sounds/uploaded/BLMSIUFTFU/XC513498-190709_1175_Cir.cyan-f.mp3'
-      },
-      {
-        id: 4,
-        name: 'Сокол',
-        species: 'Falco peregrinus',
-        description: 'Латинское название сокола Falco произошло от слова «серп» из-за серповидной формы крыльев. Длинные и широкие крылья позволяют соколу высоко подниматься в небо и свободно парить. Скорость полёта сокола достигает 280-320 километров в час.',
-        image: 'https://live.staticflickr.com//65535//49310710607_92a3a145a9.jpg',
-        audio: 'https://www.xeno-canto.org/sounds/uploaded/MMEJYLOPDO/XC496049-Pilgrimsfalk_06.mp3'
-      },
-      {
-        id: 5,
-        name: 'Ястреб',
-        species: 'Accipiter gentilis',
-        description: 'Для всех ястребов характерны широкие и короткие крылья. Ещё один отличительный признак - белые «брови» над глазами. Славянские дружинники размещали изображение ястреба на своих знаменах, как символ отваги, мощи и безжалостности к врагам.',
-        image: 'https://live.staticflickr.com//65535//49024617331_b9d0d2c9b3.jpg',
-        audio: 'https://www.xeno-canto.org/sounds/uploaded/MMEJYLOPDO/XC512740-Duvh%C3%B6k_09.mp3'
-      },
-      {
-        id: 6,
-        name: 'Филин',
-        species: 'Bubo bubo',
-        description: 'Полет филина бесшумный, зрение очень острое. Эти особенности делают птицу непревзойденным ночным охотником. У филина нет естественных врагов, ни один зверь не охотится на взрослых птиц. А вот на птенцов нападают лисы и волки.',
-        image: 'https://live.staticflickr.com/65535/48137123012_393653c2e4.jpg',
-        audio: 'https://www.xeno-canto.org/sounds/uploaded/WNLIDKJKXT/XC518386-sense%20t%C3%ADtol.mp3'
-      }
-    ],
-    [
-      {
-        id: 1,
-        name: 'Альбатрос',
-        species: 'Diomedea exulans',
-        description: 'Альбатрос - самая крупная летающая птица в мире. Размах крыльев достигает три с половиной, вес - десять килограммов. Большую часть жизни альбатросы проводят в воздухе, покрывая над океанскими просторами огромные расстояния',
-        image: 'https://live.staticflickr.com/7557/16260253965_8e9430cb66.jpg',
-        audio: 'https://www.xeno-canto.org/sounds/uploaded/WOEAFQRMUD/XC293087-Diomedea%20exulans151120_T254.mp3'
-      },
-      {
-        id: 2,
-        name: 'Олуша',
-        species: 'Sula nebouxii',
-        description: 'Особенностью голубоногой олуши является не только насыщенный ярко-синий цвет лапок, но еще и тот факт, что они очень теплые. В то время как другие виды птиц греют кладки своим телом, голубоногая олуша делает это с помощью лапок',
-        image: 'https://live.staticflickr.com/800/40645471394_4422e69ed8.jpg',
-        audio: 'https://www.xeno-canto.org/sounds/uploaded/YHKQPPJDVP/XC411507-171217_1491%20BF%20Booby%205ft%20IDLP%201230%20mp3%20amp.mp3'
-      },    
-      {
-        id: 3,
-        name: 'Буревестник',
-        species: 'Puffinus griseus',
-        description: 'Размеры буревестниковых разные. Самые маленькие из них в длину составляют до 25 см, самые большие - до 1 м, при размахе крыльев около 2 м. Существует поверье, что появление буревестника в воздухе предвещает бурю, о чем говорит само название птицы.',
-        image: 'https://live.staticflickr.com//607//22136056020_935cb113f9.jpg',
-        audio: 'https://www.xeno-canto.org/sounds/uploaded/XQEVNREHJY/SHEARWATER%20Christmas%20Island_04_Motu_Isla%20de%20Pascua-Easter%20Island_CH_4MAR03_Alvaro%20Jaramillo.mp3'
-      },
-      {
-        id: 4,
-        name: 'Пеликан',
-        species: 'Pelecanus',
-        description: 'Пеликаны — обитатели морей и рек. Ходят они неуклюже, но хорошо летают и плавают. Питаются в основном рыбой, устраивают коллективные охоты — выстроившись полукругом хлопают по воде крыльями и клювами и вытесняют напуганную рыбу на мелководье.',
-        image: 'https://live.staticflickr.com/65535/49159147156_dcbbb5c12a.jpg',
-        audio: 'https://www.xeno-canto.org/sounds/uploaded/XAMHIHFTZG/XC331138-call1.mp3'
-      },
-      {
-        id: 5,
-        name: 'Пингвин',
-        species: 'Aptenodytes forsteri',
-        description: 'Самец императорского пингвина достигает роста 130 см, его масса может приближаться к 50 кг. Из всех современных пингвинов этот вид – самый крупный. Питание пингвина состоит из рыбы, кальмаров и криля. Охотятся птицы в океане большими группами.',
-        image: 'https://live.staticflickr.com/5202/5252413926_8e013a3efd.jpg',
-        audio: 'https://www.xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC449827-LS100829%20King%20Penguin%20call%20A.mp3'
-      },
-      {
-        id: 6,
-        name: 'Чайка',
-        species: 'Larus argentatus',
-        description: 'Чайки населяют берега морей, озёр, рек, водохранилищ, болот, часто гнездятся на островах. С конца прошлого века чайки стали появляться в крупных городах, где устраивает гнёзда на крышах зданий. Все чайки ведут колониальный образ жизни.',
-        image: 'https://live.staticflickr.com/65535/48577115317_7034201dde.jpg',
-        audio: 'https://www.xeno-canto.org/sounds/uploaded/VOLIQOYWKG/XC501190-190801_06.50h_zilvermeeuw_duinen%20van%20goeree_roep_2ex_overvliegend_gezien_.mp3'
-      }
-    ]
 ];
-
 
 const category = [
     'Аистообразные',
