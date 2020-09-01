@@ -1,86 +1,55 @@
-.task_container {
-    background-color: #394956ad;
-    width: 100%;
-    height: 200px;
+.task-container {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #394956ad;
+  padding: 25px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.16), 0 6px 12px rgba(0,0,0,0.23);
+}
+
+.task-image {
+  width: 220px;
+  height: 170px;
+  border-radius: 15px;
+  background-position: center;
+  background-size: cover;
+}
+
+.task-content {
+  margin-left: 30px;
+  width: 100%;
+  padding: 10px;
+}
+
+.task-bird-name {
+  font-size: 26px;
+  margin-bottom: 5px;
+}
+
+.task-bird-name-latin {
+  font-size: 16px;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 790px) {
+  .task-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .task-image-container {
     display: flex;
     justify-content: center;
   }
-  .stub_picture {
-    width: 200px;
-    height: 150px;
-    margin: 25px;
-    border-radius: 10px;
-    background-size: cover;
-    background-color: #394956b3;
+
+  .task-content {
+    margin: 0;
+    padding: 0;
   }
-  .question_name {
-    text-align: center;
-    font-size: 26px;
-    margin: 0 0 5px;
+}
+
+@media (max-width: 480px) {
+  .task-container {
+    padding: 15px 10px;
   }
-  .title_song {
-    margin-top: 48px;
-    position: relative;
-    width: 360px;
-    margin-left: 19px;
-  }
-  .question {
-    margin: 40px 0 40px 60px;
-    width: 760px;
-  
-    position: relative;
-  }
-  
-  @media (max-width: 1180px) {
-    
-    .question {
-      margin: 40px 0 40px 40px;
-      width: 670px;
-    }
-  }
-  @media (max-width: 950px){
-   
-    .question {
-      width: 335px;
-    }
-    .title_song {
-      margin-left: 40px;
-      margin-bottom: 0;
-    }
-  }
-  
-  @media (max-width: 680px) {
-    
-    .task_container {
-      flex-direction: column;
-      height: 310px;
-    }
-    .stub_picture {
-      margin: 40px AUTO 0;
-    }
-    .question_name {
-      text-align: center;
-      margin-left: -40px;
-      margin-top: 15px;
-    }
-    .title_song {
-      width: 345px;
-      margin: 0 auto;
-    }
-  }
-  @media (max-width: 580px){
-  
-  
-  .title_song {
-      width: 345px;
-      margin: 0 0 0 50px;
-    }
-  }
-  @media (max-width: 430px){
-    .title_song {
-      width: 295px;}
-  }
-  @media (max-width: 380px){
-    .title_song {
-      width: 260px;}
-  }
+}
