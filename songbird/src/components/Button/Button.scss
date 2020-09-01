@@ -1,27 +1,34 @@
 .button {
-    background-color: #394956ad;
-    color: #ffff73;
-    width: 100%;
-    height: 30px;
-    border: none;
-    outline: none;
-    margin-bottom: 10px;
-    font-weight: 600;
-    font-size: 15px;
-  }
-  .button_active {
-    background-color: #ffff73;
-    color: black;
-    border: none;
-    width: 100%;
-    height: 30px;
-    margin-bottom: 10px;
-    font-weight: 600;
-    font-size: 15px;
-  }
-  .button:hover {
-    cursor: not-allowed;
-  }
-  .button_active:hover {
-    cursor: pointer;
-  }
+  padding: 10px 0;
+  background-color: #394956ad;
+  color: #ffff73;
+  width: 100%;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 15px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.16), 0 6px 12px rgba(0,0,0,0.23);
+}
+
+.button-active {
+  padding: 10px 0;
+  background-color: #ffff73;
+  border-radius: 20px;
+  color: black;
+  border: none;
+  width: 100%;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 15px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.16), 0 6px 12px rgba(0,0,0,0.23);
+}
+
+.button:hover {
+  cursor: not-allowed;
+}
+  
+.button-active:hover {
+  cursor: pointer;
+}
