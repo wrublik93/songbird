@@ -1,0 +1,22 @@
+.app {
+  background-image: url("./assets/images/common/background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+.wrapper {
+  color: #ffff73;
+  max-width: 1200px;
+  box-sizing: border-box;
+  padding: 0 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .wrapper {
+    padding: 0 10px;
+  }
+}

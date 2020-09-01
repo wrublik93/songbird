@@ -1,0 +1,32 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.header-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #394956b3;
+    margin-top: 0;
+    padding: 0;
+    border-radius: 20px;
+}
+
+.header-nav {
+    border-radius: 20px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.16), 0 6px 12px rgba(0,0,0,0.23);
+}
+
+.header-logo {
+    width: 200px; 
+    height: 70px;
+}
+
+@media (max-width: 420px) {
+    .header-logo {
+        width: 150px;
+        height: 65px;
+    }
+}

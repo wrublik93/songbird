@@ -1,0 +1,19 @@
+.answer-variants-container {
+  width: 45%;
+  background-color: #394956ad;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.16), 0 6px 12px rgba(0,0,0,0.23);
+  margin-right: 20px;
+}
+
+.answer-list {
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 890px) {
+  .answer-variants-container {
+    margin-right: 0px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
